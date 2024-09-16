@@ -1,0 +1,30 @@
+.navItems {
+  display: flex;
+  padding-left: 1rem;
+  padding-right: 2rem;
+  padding-top: 0.3rem;
+  /* width: 100%; */
+  list-style: none;
+}
+
+@media (max-width: 425px) {
+  .navItems {
+    padding-left: 0.5em;
+    padding-right: 1em;
+    /* gap: 1em;
+    width: 100%; */
+  }
+}
+
+@media (min-width: 768px) {
+  .navItems {
+    padding-left: 1em;
+    padding-right: 2em;
+    /* gap: 1em;
+    width: 100%; */
+  }
+}
+
+.navItem {
+  padding: 1em;
+}

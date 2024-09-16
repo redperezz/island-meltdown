@@ -1,0 +1,19 @@
+.headerContainer {
+  margin-left: 5rem;
+}
+
+.header {
+  background-image: linear-gradient(to right, #ce2029, #000000);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  white-space: nowrap;
+  margin: 1rem;
+}
+
+.navContainer {
+  display: flex;
+  justify-content: flex-start;
+  margin: 1rem 1rem 1rem 0rem;
+  width: 100%;
+}
