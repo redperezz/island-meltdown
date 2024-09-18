@@ -1,0 +1,41 @@
+.footerContainer {
+  background-color: #ce2029;
+  width: 100%;
+  height: fit-content;
+}
+
+.footerContainer,
+.newsletterContainer,
+.footerMenuContainer {
+  display: flex;
+}
+
+.newsletterContainer {
+  width: 100%;
+  justify-content: flex-start;
+}
+
+.footerMenuContainer {
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.footerMenu {
+  list-style: none;
+  margin: 1rem;
+}
+
+.footerItem {
+  padding: 0.5rem;
+}
+
+.newsletter {
+  padding: 0.5rem;
+  margin: 1rem;
+}
+
+.footerMenu,
+.footerItem,
+.newsletter {
+  color: #f2f2f2;
+}

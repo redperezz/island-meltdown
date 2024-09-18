@@ -1,15 +1,17 @@
+import styles from './footer.module.css';
+
 export default function Footer() {
   return (
-    <div>
-      <div>
-        <p>Sign up for our Newsletter!</p>
+    <footer className={styles.footerContainer}>
+      <div className={styles.newsletterContainer}>
+        <p className={styles.newsletter}>Sign up for our Newsletter!</p>
       </div>
-      <div>
-        <ul>
-          <li>Instagram</li>
-          <li>Facebook</li>
+      <div className={styles.footerMenuContainer}>
+        <ul className={styles.footerMenu}>
+          <li className={styles.footerItem}>Instagram</li>
+          <li className={styles.footerItem}>Facebook</li>
         </ul>
       </div>
-    </div>
+    </footer>
   );
 }

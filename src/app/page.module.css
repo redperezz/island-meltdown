@@ -1,4 +1,63 @@
-.page {
+/* .page {
+  display: flex;
+  width: 100vw;
+  height: 100vw;
+} */
+
+/* .main {
+  display: flex;
+  width: 100vw;
+  height: 100vw;
+} */
+.buttonContainer {
+  display: flex;
+  width: 100%;
+  height: 50vw;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.fujiIsland {
+  width: 100%;
+  height: 50vw;
+  position: absolute;
+  z-index: -10;
+}
+
+.menuButton {
+  background: #ce2029;
+  color: #f2f2f2;
+  font-size: 0.4rem;
+  font-weight: bold;
+  padding: 0.7rem 1.4rem;
+  border: #ce2029;
+  border-radius: 40px;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 425px) {
+  .menuButton {
+    font-size: 0.6rem;
+    margin-bottom: 1.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .menuButton {
+    font-size: 0.8rem;
+    margin-bottom: 2rem;
+    padding: 1rem 2rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .menuButton {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+}
+
+/* .page {
   --gray-rgb: 0, 0, 0;
   --gray-alpha-200: rgba(var(--gray-rgb), 0.08);
   --gray-alpha-100: rgba(var(--gray-rgb), 0.05);
@@ -105,7 +164,6 @@ a.secondary {
   flex-shrink: 0;
 }
 
-/* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
   a.primary:hover {
     background: var(--button-primary-hover);
@@ -162,4 +220,4 @@ a.secondary {
   .logo {
     filter: invert();
   }
-}
+} */
