@@ -8,34 +8,3 @@ a {
   color: inherit;
   text-decoration: none;
 }
-
-/* :root {
-  --background: #f4f3f2;
-  --foreground: rgba(0, 0, 0, 0.87);
-} */
-
-/* @media (prefers-color-scheme: dark) {
-  :root {
-    --background: #f4f3f2;
-    --foreground: rgba(0, 0, 0, 0.87);
-  }
-} */
-/* s html,
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
-} */
-
-/* body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-} */
-
-/* @media (prefers-color-scheme: light) {
-  html {
-    color-scheme: light;
-  }
-} */

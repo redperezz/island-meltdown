@@ -1,7 +1,8 @@
 .footerContainer {
-  background-color: #ce2029;
+  background-color: #a00c19;
   width: 100%;
-  height: fit-content;
+  height: 1000px;
+  /* height: fit-content; for testing */
 }
 
 .footerContainer,
