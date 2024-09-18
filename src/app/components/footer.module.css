@@ -27,11 +27,38 @@
 
 .footerItem {
   padding: 0.5rem;
+  font-size: 0.4rem;
+  font-weight: bold;
+  transition: all 250ms ease-in-out;
 }
 
 .newsletter {
   padding: 0.5rem;
   margin: 1rem;
+  font-size: 0.4rem;
+  font-weight: bold;
+  transition: all 250ms ease-in-out;
+}
+
+@media (min-width: 425px) {
+  .footerItem,
+  .newsletter {
+    font-size: 0.6rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .footerItem,
+  .newsletter {
+    font-size: 0.8rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .footerItem,
+  .newsletter {
+    font-size: 1rem;
+  }
 }
 
 .footerMenu,
