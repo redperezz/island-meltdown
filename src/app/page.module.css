@@ -25,6 +25,12 @@
   transition: all 250ms ease-in-out;
 }
 
+.menuButton:hover {
+  transition: 0.7s ease;
+  cursor: pointer;
+  color: #000000;
+}
+
 @media (min-width: 425px) {
   .menuButton {
     font-size: 0.6rem;
