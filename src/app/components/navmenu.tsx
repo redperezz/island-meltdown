@@ -2,7 +2,7 @@
 import Link from 'next/link';
 import classNames from 'classnames';
 import styles from './navmenu.module.css';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 
 export default function NavMenu() {
   useEffect(() => {

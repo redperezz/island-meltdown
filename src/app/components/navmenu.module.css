@@ -2,11 +2,7 @@
   display: flex;
   align-items: center;
   width: 100%;
-  gap: 0.5rem;
-}
-
-.navMenu :nth-child(1) {
-  padding-left: 1rem;
+  margin-left: 2.5rem;
 }
 
 .navMenu :nth-child(6) {
@@ -16,15 +12,23 @@
 
 .navItem {
   font-weight: bold;
+  width: auto;
   color: #f2f2f2;
 }
 
 .navLink {
   transition: 0.7s ease;
+  border: 0.2rem solid #a00c19;
+  border-radius: 40px;
+  padding: 0.7rem 1.4rem;
 }
 
 .navLink:hover {
-  color: #000000;
+  color: #a00c19;
+  background-color: #000000;
+  border: 0.2rem solid #000000;
+  border-radius: 40px;
+  padding: 0.7rem 1.4rem;
 }
 
 .hamburger {
@@ -39,7 +43,7 @@
   margin: 5px auto;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-color: #ffffff;
+  background-color: #f2f2f2;
 }
 
 @media (max-width: 768px) {
