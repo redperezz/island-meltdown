@@ -5,26 +5,21 @@ import styles from './navmenu.module.css';
 import { useEffect, useState } from 'react';
 
 export default function NavMenu() {
-  useEffect(() => {
-    const hamburger = document.querySelector('.hamburger');
-    const navMenu = document.querySelector('.navMenu');
+  const [isActive, setActive] = useState(true);
 
-    hamburger?.addEventListener('click', () => {
-      hamburger.classList.toggle('active');
-      navMenu?.classList.toggle('active');
-    });
-
-    document.querySelectorAll('.navLink').forEach((n) =>
-      n.addEventListener('click', () => {
-        hamburger?.classList.remove('active');
-        navMenu?.classList.remove('active');
-      })
-    );
-  }, []);
+  const handleClick = () => {
+    setActive(!isActive);
+  };
 
   return (
     <>
-      <ul className={classNames('navMenu', styles.navMenu)}>
+      <ul
+        className={classNames(
+          'navMenu',
+          isActive ? 'active' : '',
+          styles.navMenu
+        )}
+      >
         <li className={classNames('navItem', styles.navItem)}>
           <Link href='../' className={classNames('navLink', styles.navLink)}>
             Home
@@ -65,7 +60,14 @@ export default function NavMenu() {
           </Link>
         </li>
       </ul>
-      <div className={classNames('hamburger', styles.hamburger)}>
+      <div
+        className={classNames(
+          'hamburger',
+          isActive ? 'active' : '',
+          styles.hamburger
+        )}
+        onClick={handleClick}
+      >
         <span className={classNames('bar', styles.bar)}></span>
         <span className={classNames('bar', styles.bar)}></span>
         <span className={classNames('bar', styles.bar)}></span>
