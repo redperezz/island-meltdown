@@ -14,6 +14,7 @@
   font-weight: bold;
   width: auto;
   color: #f2f2f2;
+  letter-spacing: 1px;
 }
 
 .navLink {
@@ -25,8 +26,8 @@
 
 .navLink:hover {
   color: #a00c19;
-  background-color: #000000;
-  border: 0.2rem solid #000000;
+  background-color: #f2f2f2;
+  border: 0.2rem solid #f2f2f2;
   border-radius: 40px;
   padding: 0.7rem 1.4rem;
 }
