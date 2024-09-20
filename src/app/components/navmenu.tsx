@@ -5,7 +5,7 @@ import styles from './navmenu.module.css';
 import { useEffect, useState } from 'react';
 
 export default function NavMenu() {
-  const [isActive, setActive] = useState(true);
+  const [isActive, setActive] = useState(false);
 
   const handleClick = () => {
     setActive(!isActive);
@@ -16,7 +16,7 @@ export default function NavMenu() {
       <ul
         className={classNames(
           'navMenu',
-          isActive ? 'active' : '',
+          isActive && styles.navMenuActive,
           styles.navMenu
         )}
       >
@@ -63,7 +63,7 @@ export default function NavMenu() {
       <div
         className={classNames(
           'hamburger',
-          isActive ? 'active' : '',
+          isActive && styles.hamburgerActive,
           styles.hamburger
         )}
         onClick={handleClick}
