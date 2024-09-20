@@ -1,20 +1,42 @@
 .navMenu {
   display: flex;
   align-items: center;
+  justify-content: flex-start;
   width: 100%;
-  margin-left: 2.5rem;
+  /* margin-left: 1rem; */
+  /* gap: 0.1rem; */
 }
 
 .navMenu :nth-child(6) {
   margin-left: auto;
-  margin-right: 2rem;
+  margin-right: 1rem;
+  text-wrap: nowrap;
 }
 
 .navItem {
+  font-size: 0.5rem;
   font-weight: bold;
   width: auto;
   color: #f2f2f2;
   letter-spacing: 1px;
+}
+
+@media (min-width: 425px) {
+  .navItem {
+    font-size: 0.7rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .navItem {
+    font-size: 0.8rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .navItem {
+    font-size: 1rem;
+  }
 }
 
 .navLink {
@@ -73,7 +95,7 @@
     top: 70px;
     gap: 0;
     flex-direction: column;
-    background-color: #ffffff;
+    background-color: #f2f2f2;
     width: 50vw;
     height: fit-content;
     text-align: center;
