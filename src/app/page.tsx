@@ -1,6 +1,6 @@
 'use client';
 import Image from 'next/image';
-import fujiIsland from './public/images/fuji-island.jpg';
+import stars from './public/images/starss.png';
 import styles from './page.module.css';
 
 export default function Home() {
@@ -8,9 +8,9 @@ export default function Home() {
     <div className={styles.page}>
       <main className={styles.main}>
         <Image
-          src={fujiIsland}
-          alt='Fuji Island desserts'
-          className={styles.fujiIsland}
+          src={stars}
+          alt='A volcano spewing lava.'
+          className={styles.backgroundImage}
         ></Image>
         <div className={styles.buttonContainer}>
           <button

@@ -1,5 +1,5 @@
 .headerContainer {
-  background-color: #a00c19;
+  background: linear-gradient(180deg, #352f36, #1c181e);
   width: 100%;
   position: sticky;
   top: 0;
@@ -10,11 +10,10 @@
   font-size: 0.7rem;
   font-weight: bold;
   letter-spacing: 1px;
-  color: #f2f2f2;
+  color: #a00c19;
   height: fit-content;
   margin: 1rem;
   padding: 0.5rem;
-  border: 0.2rem solid #f2f2f2;
   border-radius: 40px;
   align-self: center;
   white-space: nowrap;

@@ -87,7 +87,7 @@ export default function NavMenu() {
           styles.hamburger
         )}
         onClick={handleClick}
-        ref={isActive ? ref : undefined}
+        // ref={isActive ? ref : undefined}
       >
         <span className={classNames('bar', styles.bar)}></span>
         <span className={classNames('bar', styles.bar)}></span>
