@@ -8,7 +8,6 @@ import { useComponentVisible } from '../hooks/useComponentVisible';
 export default function NavMenu() {
   const [isActive, setActive] = useState(false);
   const ref = useComponentVisible(() => {
-    console.log('hit');
     setActive(false);
   });
 

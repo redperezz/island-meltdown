@@ -14,23 +14,23 @@
 }
 
 .menuButton {
-  background-color: #a00c19;
+  background-color: #e05430;
   color: #f2f2f2;
   font-size: 0.4rem;
   font-weight: bold;
   font-family: inherit;
   letter-spacing: 1px;
   padding: 0.7rem 1.4rem;
-  border: 0.2rem solid #a00c19;
+  border: 0.2rem solid #e05430;
   border-radius: 40px;
   margin-bottom: 1rem;
   transition: all 250ms ease-in-out;
 }
 
 .menuButton:hover {
-  background-color: #352f36;
-  color: #ffd700;
-  border: 0.2rem solid #352f36;
+  background-color: #87ceeb;
+  color: #003366;
+  border: 0.2rem solid #87ceeb;
   transition: 0.7s ease;
   cursor: pointer;
 }
